@@ -1,0 +1,6 @@
+infile= open('kaartnummers.txt', 'r')
+inhoud1= infile.read()
+infile.close()
+lijst= inhoud1.split('\n')
+inhoud3= lijst.split(', ')
+print(lijst)
